@@ -41,6 +41,7 @@ Roots are complex
     } else {
         printf("Roots are complex\n");
     }
+
 /*Q18: Write a program to assign grades based on a percentage input.
 
 Sample Test Cases:
