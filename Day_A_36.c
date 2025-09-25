@@ -15,7 +15,7 @@ Output 1:
 */
     int rows, cols, i, j;
 
-    printf("Input matrix size");
+    printf("Input matrix size: ");
     scanf("%d %d", &rows, &cols);
 
     int matrix[100][100]; // maximum size, safe for beginners
@@ -49,7 +49,7 @@ Output 1:
 
     int Rows, Cols, I, J, sum = 0;
 
-    printf("Input matrix size");
+    printf("Input matrix size: ");
     scanf("%d %d", &Rows, &Cols);
 
     int Matrix[100][100]; // Safe max size for beginners
