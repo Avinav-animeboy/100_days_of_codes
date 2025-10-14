@@ -18,7 +18,6 @@ Not rotation
 
 */
 
-
     char str1[100], str2[100];
     int i, j, len = 0, isRotation = 0;
 
