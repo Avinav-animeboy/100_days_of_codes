@@ -16,7 +16,6 @@ struct Student {
     int marks;
 };
 
-// Function to return the top student
 struct Student getTopStudent(struct Student s[], int n) {
     int i, topIndex = 0;
 
@@ -26,19 +25,17 @@ struct Student getTopStudent(struct Student s[], int n) {
         }
     }
 
-    return s[topIndex];   // return the topper structure
+    return s[topIndex];
 }
 
 int main() {
     struct Student s[3], top;
     int i;
 
-    // Input 3 students
     for (i = 0; i < 3; i++) {
         scanf("%s %d %d", s[i].name, &s[i].roll, &s[i].marks);
     }
 
-    // Get topper
     top = getTopStudent(s, 3);
 
     // Print topper
